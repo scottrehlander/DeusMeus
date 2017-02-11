@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.0</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{78A72419-7116-41B5-98AF-83969EC33C2B}</ProjectGuid>
+    <ProjectTypeGuids>{69878862-DA7D-4DC6-B0A1-50D8FAB4242F};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Rp2d</RootNamespace>
+    <AssemblyName>Rp2d</AssemblyName>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <AssemblyOriginatorKeyFile>..\..\..\psm</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <AssemblyOriginatorKeyFile>..\..\..\psm</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'UnitTest|AnyCPU' ">
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\UnitTest</OutputPath>
+    <WarningLevel>4</WarningLevel>
+    <DebugSymbols>true</DebugSymbols>
+    <DefineConstants>DEBUG;TEST</DefineConstants>
+    <ConsolePause>false</ConsolePause>
+    <AssemblyOriginatorKeyFile>..\..\..\psm</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug_DrawAll|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug_DrawAll</OutputPath>
+    <DefineConstants>DEBUG;DRAW_COLLISION_RECTS</DefineConstants>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="Sce.PlayStation.Core" />
+    <Reference Include="Sce.PlayStation.HighLevel.GameEngine2D" />
+    <Reference Include="VitaUnit">
+      <HintPath>..\3pty\VitaUnit.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AppMain.cs" />
+    <Compile Include="Game.cs" />
+    <Compile Include="GameInput\GameInput.cs" />
+    <Compile Include="GameInput\PsController.cs" />
+    <Compile Include="GameInput\IControllerQueryBase.cs" />
+    <Compile Include="EntryPoint.cs" />
+    <Compile Include="Layer.cs" />
+    <Compile Include="Utilities\RandomExtentions.cs" />
+    <Compile Include="SpriteBatch.cs" />
+    <Compile Include="Utilities\Support.cs" />
+    <Compile Include="Scenes\MenuScenes\MenuScene.cs" />
+    <Compile Include="Scenes\MenuScenes\TitleScene.cs" />
+    <Compile Include="Scenes\GameScenes\GameScene.cs" />
+    <Compile Include="Scenes\GameScenes\GameplayActionScene.cs" />
+    <Compile Include="Scenes\GameScenes\TestScene.cs" />
+    <Compile Include="BackgroundLoader.cs" />
+    <Compile Include="UnitTests\BackgroundLoaderTests.cs" />
+    <Compile Include="Utilities\Tiled.cs" />
+    <Compile Include="Utilities\FPSDisplayer.cs" />
+    <Compile Include="GameInput\GameInputControls.cs" />
+    <Compile Include="GameEntities\Hero.cs" />
+    <Compile Include="GameEntities\AnimatedEntity.cs" />
+    <Compile Include="UnitTests\EntityTests.cs" />
+    <Compile Include="UnitTests\RunTests.cs" />
+    <Compile Include="UnitTests\TestScene.cs" />
+    <Compile Include="Utilities\SerializationHelpers.cs" />
+    <Compile Include="GameEntities\SerializationClasses\AnimationDefinition.cs" />
+    <Compile Include="UnitTests\SerializationTests.cs" />
+    <Compile Include="NpcManager.cs" />
+    <Compile Include="CollisionManager.cs" />
+    <Compile Include="GameEntities\EmptyCollisionEntity.cs" />
+    <Compile Include="GameEntities\NPCs\Npc.cs" />
+    <Compile Include="GameEntities\NPCs\NpcDialog.cs" />
+    <Compile Include="GameEntities\NPCs\RoamingNpc.cs" />
+    <Compile Include="GameEntities\NPCs\RoamingNpcInfo.cs" />
+    <Compile Include="DialogManager.cs" />
+    <Compile Include="WorldMapManager.cs" />
+    <Compile Include="Utilities\TextureManager.cs" />
+    <Compile Include="GameEntities\EntityBase.cs" />
+    <Compile Include="AudioManager.cs" />
+    <Compile Include="UnitTests\AudioTests.cs" />
+    <Compile Include="Scenes\MenuScenes\LoadingScene.cs" />
+    <Compile Include="GameEntities\Enemies\Enemy.cs" />
+    <Compile Include="GameEntities\Enemies\RoamingEnemy.cs" />
+    <Compile Include="GameEntities\Enemies\RoamingEnemyInfo.cs" />
+    <Compile Include="EnemyManager.cs" />
+    <Compile Include="GameEntities\Enemies\SpawnPointsInfo.cs" />
+    <Compile Include="GameEntities\Enemies\EnemyRepository.cs" />
+    <Compile Include="Utilities\EnemyCreator.cs" />
+    <Compile Include="GameEntities\Enemies\ArmoredGuard.cs" />
+    <Compile Include="GameEntities\Enemies\BlueBird.cs" />
+    <Compile Include="GameEntities\Ammo\Ammo.cs" />
+    <Compile Include="GameEntities\Ammo\Bullet.cs" />
+    <Compile Include="GameEntities\CollidableAnimatedEntity.cs" />
+    <Compile Include="AmmoManager.cs" />
+    <Compile Include="GameEntities\Ammo\HeroFiredAmmo.cs" />
+    <Compile Include="EnemyPool.cs" />
+    <Compile Include="IPoolable.cs" />
+    <Compile Include="ItemPool.cs" />
+    <Compile Include="GameEntities\LifeManager.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ShaderProgram Include="shaders\Simple.fcg" />
+    <ShaderProgram Include="shaders\Simple.vcg" />
+  </ItemGroup>
+  <ItemGroup>
+    <PsmMetadata Include="app.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Sce\Sce.Psm.CSharp.targets" />
+  <ItemGroup>
+    <Folder Include="GameInput\" />
+    <Folder Include="Utilities\" />
+    <Folder Include="Scenes\" />
+    <Folder Include="Content\" />
+    <Folder Include="Content\ScratchSpace\" />
+    <Folder Include="Scenes\GameScenes\" />
+    <Folder Include="UnitTests\" />
+    <Folder Include="UnitTests\TestFiles\" />
+    <Folder Include="Content\GameMaps\" />
+    <Folder Include="Content\GameMaps\TileSheets\" />
+    <Folder Include="Content\GameMaps\MapImages\" />
+    <Folder Include="GameEntities\" />
+    <Folder Include="Content\GameEntities\" />
+    <Folder Include="GameEntities\SerializationClasses\" />
+    <Folder Include="GameEntities\NPCs\" />
+    <Folder Include="Content\Audio\" />
+    <Folder Include="GameEntities\Enemies\" />
+    <Folder Include="Content\GameEntities\Enemies\" />
+    <Folder Include="Content\Audio\Sound Effects\" />
+    <Folder Include="GameEntities\Ammo\" />
+    <Folder Include="Content\GameEntities\Ammo\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\ScratchSpace\pic1.png" />
+    <Content Include="Content\ScratchSpace\Map2.png" />
+    <Content Include="UnitTests\TestFiles\Map1.tmx" />
+    <Content Include="Content\GameMaps\TileSheets\PathAndObjects_0.png" />
+    <Content Include="Content\GameMaps\TileSheets\File-X11tiles-32-32.png" />
+    <Content Include="Content\GameMaps\TileSheets\holdbars.png" />
+    <Content Include="Content\GameMaps\TileSheets\tileb.png" />
+    <Content Include="Content\GameMaps\TileSheets\Woodland_Tileset.png" />
+    <Content Include="Content\ScratchSpace\Map1.tmx" />
+    <Content Include="Content\GameMaps\Map1.tmx" />
+    <Content Include="Content\GameMaps\Map2.tmx" />
+    <Content Include="Content\GameMaps\TileSheets\castle.png" />
+    <Content Include="Content\GameMaps\TileSheets\rooftops.png" />
+    <Content Include="Content\GameMaps\MapImages\darkemptygrass50x50.png" />
+    <Content Include="Content\GameMaps\MapImages\emptygrass50x50.png" />
+    <Content Include="Content\GameEntities\Char-Scott.png" />
+    <Content Include="Content\GameEntities\Char-Christine.png" />
+    <Content Include="UnitTests\TestFiles\Map1.npc" />
+    <Content Include="UnitTests\TestFiles\Char-Scott.png" />
+    <Content Include="Content\GameEntities\Char-Chris.png" />
+    <Content Include="Content\GameEntities\Char-Costas.png" />
+    <Content Include="Content\GameEntities\Char-Rose.png" />
+    <Content Include="Content\GameEntities\Char-SluttyBobby.png" />
+    <Content Include="Content\GameEntities\Char-Tom.png" />
+    <Content Include="Content\GameMaps\Map2.npc" />
+    <Content Include="Content\GameMaps\TileSheets\red.png" />
+    <Content Include="Content\GameMaps\DialogBackground.png" />
+    <Content Include="UnitTests\TestFiles\WorldMap.xml" />
+    <Content Include="Content\GameMaps\WorldMap.xml" />
+    <Content Include="Content\GameMaps\TileSheets\ExteriorTest-760306.png" />
+    <Content Include="Content\GameMaps\TileSheets\insidestuff.png" />
+    <Content Include="Content\GameMaps\TileSheets\trees.png" />
+    <Content Include="Content\GameMaps\TileSheets\villagetest-790806.png" />
+    <Content Include="Content\GameMaps\castlefront.tmx" />
+    <Content Include="Content\GameMaps\MapImages\castlefront.png" />
+    <Content Include="UnitTests\TestFiles\alarm.wav" />
+    <Content Include="UnitTests\TestFiles\bg_music1.mp3" />
+    <Content Include="Content\GameMaps\castle_inside.tmx" />
+    <Content Include="Content\GameMaps\MapImages\emptycity.png" />
+    <Content Include="Content\GameMaps\insidebuildingone.tmx" />
+    <Content Include="UnitTests\TestFiles\ArmoredGuard.png" />
+    <Content Include="Content\GameEntities\Enemies\ArmoredGuard.png" />
+    <Content Include="Content\EnemyRepository.xml" />
+    <Content Include="UnitTests\TestFiles\EnemyRepository.xml" />
+    <Content Include="UnitTests\TestFiles\Map1.spawns" />
+    <Content Include="Content\GameMaps\Map2.spawns" />
+    <Content Include="Content\GameEntities\Enemies\BlueBird.png" />
+    <Content Include="Content\Audio\Sound Effects\squawk1.wav" />
+    <Content Include="Content\Audio\Ambient Background.mp3" />
+    <Content Include="Content\GameEntities\Ammo\fireball.png" />
+  </ItemGroup>
+</Project>

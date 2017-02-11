@@ -1,0 +1,40 @@
+<MapSpawnPoints>
+	<SpawnPointsInfo>
+		<SpawnPointEntry>
+			<StartingAnimation>walk_right</StartingAnimation>
+			<SpawnZoneStartXInPixels>543</SpawnZoneStartXInPixels>
+			<SpawnZoneStartYInPixels>790</SpawnZoneStartYInPixels>
+			<SpawnZoneWidthInPixels>400</SpawnZoneWidthInPixels>
+			<SpawnZoneHeightInPixels>400</SpawnZoneHeightInPixels>
+			<NumberOfEnemiesAllowedInZone>2</NumberOfEnemiesAllowedInZone>
+			<RespawnRateInMilliseconds>1000</RespawnRateInMilliseconds>
+			<EnemiesForSpawnPoint>
+				<SpawnPointEnemy>
+					<EnemyName>Blue Bird</EnemyName>
+				</SpawnPointEnemy>
+				<SpawnPointEnemy>
+					<EnemyName>Black Armored Guard</EnemyName>
+				</SpawnPointEnemy>
+			</EnemiesForSpawnPoint>
+		</SpawnPointEntry>
+	</SpawnPointsInfo>
+	<SpawnPointsInfo>
+		<SpawnPointEntry>
+			<StartingAnimation>walk_right</StartingAnimation>
+			<SpawnZoneStartXInPixels>343</SpawnZoneStartXInPixels>
+			<SpawnZoneStartYInPixels>890</SpawnZoneStartYInPixels>
+			<SpawnZoneWidthInPixels>400</SpawnZoneWidthInPixels>
+			<SpawnZoneHeightInPixels>400</SpawnZoneHeightInPixels>
+			<NumberOfEnemiesAllowedInZone>3</NumberOfEnemiesAllowedInZone>
+			<RespawnRateInMilliseconds>1000</RespawnRateInMilliseconds>
+			<EnemiesForSpawnPoint>
+				<SpawnPointEnemy>
+					<EnemyName>Blue Bird</EnemyName>
+				</SpawnPointEnemy>
+				<SpawnPointEnemy>
+					<EnemyName>Black Armored Guard</EnemyName>
+				</SpawnPointEnemy>
+			</EnemiesForSpawnPoint>
+		</SpawnPointEntry>
+	</SpawnPointsInfo>
+</MapSpawnPoints>

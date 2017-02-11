@@ -1,0 +1,17 @@
+<MapSpawnPoints>
+	<SpawnPointsInfo>
+		<SpawnPointEntry>
+			<SpawnZoneStartXInPixels>0</SpawnZoneStartXInPixels>
+			<SpawnZoneStartYInPixels>0</SpawnZoneStartYInPixels>
+			<SpawnZoneWidthInPixels>100</SpawnZoneWidthInPixels>
+			<SpawnZoneHeightInPixels>100</SpawnZoneHeightInPixels>
+			<NumberOfEnemiesAllowedInZone>1</NumberOfEnemiesAllowedInZone>
+			<RespawnRateInMilliseconds>1000</RespawnRateInMilliseconds>
+			<EnemiesForSpawnPoint>
+				<SpawnPointEnemy>
+					<EnemyName>Black Armored Guard</EnemyName>
+				</SpawnPointEnemy>
+			</EnemiesForSpawnPoint>
+		</SpawnPointEntry>
+	</SpawnPointsInfo>
+</MapSpawnPoints>

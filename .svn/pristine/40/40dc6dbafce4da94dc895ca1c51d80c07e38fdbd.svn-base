@@ -1,0 +1,36 @@
+<WorldMap>
+	<WorldMapDefinition>
+		<MapId>1</MapId>
+		<MapName>Deuston</MapName>
+		<MapFilename>/Application/UnitTests/TestFiles/Map1.tmx</MapFilename>
+		<MapBackgroundSongFilename>/Application/TestFiles/bg_music1.mp3</MapBackgroundSongFilename>
+		<WorldMapExitAreas>
+			<WorldMapExitArea>
+				<MapToExitTo>2</MapToExitTo>
+				<MapExitAreaX>0</MapExitAreaX>
+				<MapExitAreaY>0</MapExitAreaY>
+				<MapExitAreaWidth>5</MapExitAreaWidth>
+				<MapExitAreaHeight>5</MapExitAreaHeight>
+				<MapToExitToStartingXInPixels>0</MapToExitToStartingXInPixels>
+				<MapToExitToStartingYInPixels>0</MapToExitToStartingYInPixels>
+			</WorldMapExitArea>
+		</WorldMapExitAreas>
+	</WorldMapDefinition>
+	<WorldMapDefinition>
+		<MapId>2</MapId>
+		<MapName>Castle Deuston</MapName>
+		<MapFilename>/Application/UnitTests/TestFiles/CastleDeuston.tmx</MapFilename>
+		<MapBackgroundSongFilename>/Application/TestFiles/bg_music2.mp3</MapBackgroundSongFilename>
+		<WorldMapExitAreas>
+			<WorldMapExitArea>
+				<MapToExitTo>1</MapToExitTo>
+				<MapExitAreaX>0</MapExitAreaX>
+				<MapExitAreaY>0</MapExitAreaY>
+				<MapExitAreaWidth>5</MapExitAreaWidth>
+				<MapExitAreaHeight>5</MapExitAreaHeight>
+				<MapToExitToStartingXInPixels>0</MapToExitToStartingXInPixels>
+				<MapToExitToStartingYInPixels>0</MapToExitToStartingYInPixels>
+			</WorldMapExitArea>
+		</WorldMapExitAreas>
+	</WorldMapDefinition>
+</WorldMap>

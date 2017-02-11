@@ -1,0 +1,88 @@
+<WorldMap>
+	<WorldMapDefinition>
+		<MapId>1</MapId>
+		<MapName>Deuston</MapName>
+		<MapFilename>/Application/Content/GameMaps/Map2.tmx</MapFilename>
+		<MapBackgroundSongFilename>/Application/Content/Audio/Ambient Background.mp3</MapBackgroundSongFilename>
+		<WorldMapExitAreas>
+			<WorldMapExitArea>
+				<MapToExitTo>2</MapToExitTo>
+				<MapExitAreaX>0</MapExitAreaX>
+				<MapExitAreaY>0</MapExitAreaY>
+				<MapExitAreaWidth>5</MapExitAreaWidth>
+				<MapExitAreaHeight>1600</MapExitAreaHeight>
+				<MapToExitToStartingXInPixels>1555</MapToExitToStartingXInPixels>
+				<MapToExitToStartingYInPixels>1200</MapToExitToStartingYInPixels>
+			</WorldMapExitArea>
+		</WorldMapExitAreas>
+	</WorldMapDefinition>
+	<WorldMapDefinition>
+		<MapId>2</MapId>
+		<MapName>Castle Deuston</MapName>
+		<MapFilename>/Application/Content/GameMaps/castlefront.tmx</MapFilename>
+		<MapBackgroundSongFilename>/Application/Content/Audio/Ambient Background.mp3</MapBackgroundSongFilename>
+		<WorldMapExitAreas>
+			<WorldMapExitArea>
+				<MapToExitTo>1</MapToExitTo>
+				<MapExitAreaX>1595</MapExitAreaX>
+				<MapExitAreaY>0</MapExitAreaY>
+				<MapExitAreaWidth>5</MapExitAreaWidth>
+				<MapExitAreaHeight>1600</MapExitAreaHeight>
+				<MapToExitToStartingXInPixels>10</MapToExitToStartingXInPixels>
+				<MapToExitToStartingYInPixels>1100</MapToExitToStartingYInPixels>
+			</WorldMapExitArea>
+			<WorldMapExitArea>
+				<MapToExitTo>3</MapToExitTo>
+				<MapExitAreaX>410</MapExitAreaX>
+				<MapExitAreaY>1455</MapExitAreaY>
+				<MapExitAreaWidth>130</MapExitAreaWidth>
+				<MapExitAreaHeight>100</MapExitAreaHeight>
+				<MapToExitToStartingXInPixels>620</MapToExitToStartingXInPixels>
+				<MapToExitToStartingYInPixels>160</MapToExitToStartingYInPixels>
+			</WorldMapExitArea>
+		</WorldMapExitAreas>
+	</WorldMapDefinition>
+	<WorldMapDefinition>
+		<MapId>3</MapId>
+		<MapName>Castle Deuston Inside</MapName>
+		<MapFilename>/Application/Content/GameMaps/castle_inside.tmx</MapFilename>
+		<MapBackgroundSongFilename>/Application/Content/Audio/Ambient Background.mp3</MapBackgroundSongFilename>
+		<WorldMapExitAreas>
+			<WorldMapExitArea>
+				<MapToExitTo>2</MapToExitTo>
+				<MapExitAreaX>480</MapExitAreaX>
+				<MapExitAreaY>0</MapExitAreaY>
+				<MapExitAreaWidth>128</MapExitAreaWidth>
+				<MapExitAreaHeight>32</MapExitAreaHeight>
+				<MapToExitToStartingXInPixels>420</MapToExitToStartingXInPixels>
+				<MapToExitToStartingYInPixels>1400</MapToExitToStartingYInPixels>
+			</WorldMapExitArea>
+			<WorldMapExitArea>
+				<MapToExitTo>4</MapToExitTo>
+				<MapExitAreaX>224</MapExitAreaX>
+				<MapExitAreaY>1228</MapExitAreaY>
+				<MapExitAreaWidth>32</MapExitAreaWidth>
+				<MapExitAreaHeight>32</MapExitAreaHeight>
+				<MapToExitToStartingXInPixels>672</MapToExitToStartingXInPixels>
+				<MapToExitToStartingYInPixels>1056</MapToExitToStartingYInPixels>
+			</WorldMapExitArea>
+		</WorldMapExitAreas>
+	</WorldMapDefinition>
+	<WorldMapDefinition>
+		<MapId>4</MapId>
+		<MapName>Inside building one</MapName>
+		<MapFilename>/Application/Content/GameMaps/insidebuildingone.tmx</MapFilename>
+		<MapBackgroundSongFilename>/Application/Content/Audio/Ambient Background.mp3</MapBackgroundSongFilename>
+		<WorldMapExitAreas>
+			<WorldMapExitArea>
+				<MapToExitTo>3</MapToExitTo>
+				<MapExitAreaX>672</MapExitAreaX>
+				<MapExitAreaY>1024</MapExitAreaY>
+				<MapExitAreaWidth>32</MapExitAreaWidth>
+				<MapExitAreaHeight>32</MapExitAreaHeight>
+				<MapToExitToStartingXInPixels>224</MapToExitToStartingXInPixels>
+				<MapToExitToStartingYInPixels>1200</MapToExitToStartingYInPixels>
+			</WorldMapExitArea>
+		</WorldMapExitAreas>
+	</WorldMapDefinition>
+</WorldMap>

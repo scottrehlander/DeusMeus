@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="50" height="50" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="villagetest-790806" tilewidth="32" tileheight="32">
+  <image source="../Art/villagetest-790806.jpg" width="640" height="480"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJzt0kERACAMwLDJQQQi8K8GGe3t+oiDnJk5C9wl3hL0h171yoz+0KtemdEfetUrM/pDr3plRn/oVa/M6A+96pUZ/aFXvTKjP/SqV2b0h171yoz+0KtemdEfetUrM/pDr3a++ie7Ric=
+  </data>
+ </layer>
+</map>

@@ -1,0 +1,109 @@
+fileFormatVersion: 2
+guid: aef271d166bca844bad6bf210acf778b
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: A_Tile_Layer_1_00+PathAndObjects_0
+    100002: A_Tile_Layer_1_00+red
+    100004: B_Tile_Layer_2_01+castle
+    100006: B_Tile_Layer_2_01+rooftops
+    100008: C_Collision_Layer_02+red
+    100010: //RootNode
+    100012: E_Tile_Layer_3_04+castle
+    100014: E_Tile_Layer_3_04+rooftops
+    100016: E_Tile_Layer_3_04+PathAndObjects_0
+    400000: A_Tile_Layer_1_00+PathAndObjects_0
+    400002: A_Tile_Layer_1_00+red
+    400004: B_Tile_Layer_2_01+castle
+    400006: B_Tile_Layer_2_01+rooftops
+    400008: C_Collision_Layer_02+red
+    400010: //RootNode
+    400012: E_Tile_Layer_3_04+castle
+    400014: E_Tile_Layer_3_04+rooftops
+    400016: E_Tile_Layer_3_04+PathAndObjects_0
+    2300000: A_Tile_Layer_1_00+PathAndObjects_0
+    2300002: A_Tile_Layer_1_00+red
+    2300004: B_Tile_Layer_2_01+castle
+    2300006: B_Tile_Layer_2_01+rooftops
+    2300008: C_Collision_Layer_02+red
+    2300010: E_Tile_Layer_3_04+castle
+    2300012: E_Tile_Layer_3_04+rooftops
+    2300014: E_Tile_Layer_3_04+PathAndObjects_0
+    3300000: A_Tile_Layer_1_00+PathAndObjects_0
+    3300002: A_Tile_Layer_1_00+red
+    3300004: B_Tile_Layer_2_01+castle
+    3300006: B_Tile_Layer_2_01+rooftops
+    3300008: C_Collision_Layer_02+red
+    3300010: E_Tile_Layer_3_04+castle
+    3300012: E_Tile_Layer_3_04+rooftops
+    3300014: E_Tile_Layer_3_04+PathAndObjects_0
+    4300000: A_Tile_Layer_1_00+PathAndObjects_0
+    4300002: A_Tile_Layer_1_00+red
+    4300004: B_Tile_Layer_2_01+castle
+    4300006: B_Tile_Layer_2_01+rooftops
+    4300008: C_Collision_Layer_02+red
+    4300010: E_Tile_Layer_3_04+castle
+    4300012: E_Tile_Layer_3_04+rooftops
+    4300014: E_Tile_Layer_3_04+PathAndObjects_0
+    11400000: A_Tile_Layer_1_00+PathAndObjects_0
+    11400002: A_Tile_Layer_1_00+red
+    11400004: B_Tile_Layer_2_01+castle
+    11400006: B_Tile_Layer_2_01+rooftops
+    11400008: C_Collision_Layer_02+red
+    11400010: E_Tile_Layer_3_04+castle
+    11400012: E_Tile_Layer_3_04+rooftops
+    11400014: E_Tile_Layer_3_04+PathAndObjects_0
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 0
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 2
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  additionalBone: 0
+  userData: 

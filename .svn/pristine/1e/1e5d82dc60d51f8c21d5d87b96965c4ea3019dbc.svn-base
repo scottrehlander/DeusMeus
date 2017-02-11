@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rp2d", "Rp2d\Rp2d.csproj", "{78A72419-7116-41B5-98AF-83969EC33C2B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Test|Any CPU = Test|Any CPU
+		UnitTest|Any CPU = UnitTest|Any CPU
+		Debug_DrawAll|Any CPU = Debug_DrawAll|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{78A72419-7116-41B5-98AF-83969EC33C2B}.Debug_DrawAll|Any CPU.ActiveCfg = Debug_DrawAll|Any CPU
+		{78A72419-7116-41B5-98AF-83969EC33C2B}.Debug_DrawAll|Any CPU.Build.0 = Debug_DrawAll|Any CPU
+		{78A72419-7116-41B5-98AF-83969EC33C2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78A72419-7116-41B5-98AF-83969EC33C2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78A72419-7116-41B5-98AF-83969EC33C2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78A72419-7116-41B5-98AF-83969EC33C2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78A72419-7116-41B5-98AF-83969EC33C2B}.UnitTest|Any CPU.ActiveCfg = UnitTest|Any CPU
+		{78A72419-7116-41B5-98AF-83969EC33C2B}.UnitTest|Any CPU.Build.0 = UnitTest|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Rp2d\Rp2d.csproj
+	EndGlobalSection
+EndGlobal

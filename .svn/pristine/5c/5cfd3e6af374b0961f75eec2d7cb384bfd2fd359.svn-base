@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="50" height="50" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="PathAndObjects_0" tilewidth="32" tileheight="32">
+  <image source="../Art/PathAndObjects_0.png" width="512" height="512"/>
+  <tile id="137">
+   <properties>
+    <property name="passable" value="false"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="257" name="Woodland_Tileset" tilewidth="32" tileheight="32">
+  <image source="../Art/Woodland_Tileset.png" width="512" height="512"/>
+  <tile id="40">
+   <properties>
+    <property name="passable" value="false"/>
+   </properties>
+  </tile>
+  <tile id="41">
+   <properties>
+    <property name="passable" value="false"/>
+   </properties>
+  </tile>
+  <tile id="52">
+   <properties>
+    <property name="passable" value="false"/>
+   </properties>
+  </tile>
+  <tile id="86">
+   <properties>
+    <property name="type" value="water"/>
+   </properties>
+  </tile>
+  <tile id="88">
+   <properties>
+    <property name="passable" value="false"/>
+   </properties>
+  </tile>
+  <tile id="89">
+   <properties>
+    <property name="passable" value="false"/>
+   </properties>
+  </tile>
+  <tile id="90">
+   <properties>
+    <property name="passable" value="false"/>
+   </properties>
+  </tile>
+  <tile id="91">
+   <properties>
+    <property name="passable" value="false"/>
+   </properties>
+  </tile>
+  <tile id="116">
+   <properties>
+    <property name="passable" value="false"/>
+   </properties>
+  </tile>
+  <tile id="120">
+   <properties>
+    <property name="type" value="water"/>
+   </properties>
+  </tile>
+  <tile id="128">
+   <properties>
+    <property name="passable" value="false"/>
+   </properties>
+  </tile>
+  <tile id="129">
+   <properties>
+    <property name="passable" value="false"/>
+   </properties>
+  </tile>
+  <tile id="205">
+   <properties>
+    <property name="passable" value="false"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="513" name="tileb" tilewidth="32" tileheight="32">
+  <image source="../Art/tileb.png" width="512" height="512"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztwwEJAAAMBKG//qWXY6BgbamqqqqqqqqqqurzB9LvE4k=
+  </data>
+ </layer>
+ <layer name="Tile Layer 2" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztmEtOw0AMhhtYI1BvwWMHnKDlsQEWvCu1XRSWgEDiACAQ0EqwBwluxJlw1YkUjUjGk7E9Tptf+ldxZvzZnumj0dCvZhI7AxqNOW7BdxXnGXM8gB+FOFqwT9v4yLiN8JYjP+m5Oszk7+PjmoNFmjkWk4mfEGtp5ng2HEsV5/DRAPa7KOFLAo65hM7zTHXz7cc5xHcCcuHqP/dcbVrrV5VDaj/tHHsQv+/wQaKfowvxPYf7NUdp2fvZ94At7RxD8AgRr4VjGdZfyeyR7vcJ/kK8r4XDlu9+VxB/7fBNBI51wu84WW8Ic3CJsh/2WZDUNP3vwympHtX9kNE25LdT4F2TfwiHxMycwPqnBT4j4PCRL/OCiU053sEfCjhsYblSjm/wj0IOrKjnClO/VXi+RlwXbecjT676aOEIvdM4Oezcfhlr8aKkH3nC9ukVYt5yGIbgERNHyBxh3r3PeR77nFOJ4t4t+4xSMftByThrc/Wf7HpO++9aCb5ZnCvOuoauXc/VRDHPdlYc/cCySX9+aKl5kTAcf86Jc9s=
+  </data>
+ </layer>
+ <layer name="Tile Layer 3" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztwQENAAAAwqD3T20ON6AAAAAAAAAAAADg3wAnEAAB
+  </data>
+ </layer>
+ <layer name="Player Layer" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztwQENAAAAwqD3T20ON6AAAAAAAAAAAADg3wAnEAAB
+  </data>
+ </layer>
+ <layer name="Tile Layer 5" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJzt1LENgDAMBEBHAiYANmAI2AD2HwizQdKggO6k776wm48AAB57iThKXXfI3piZKvtvOvOmq/KuOXtLZu3wj1bbD37gW3regRZ2AAAAAAAAgD+5AXR6Af8=
+  </data>
+ </layer>
+</map>

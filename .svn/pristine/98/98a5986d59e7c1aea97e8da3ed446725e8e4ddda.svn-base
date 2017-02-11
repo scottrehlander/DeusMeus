@@ -1,0 +1,179 @@
+fileFormatVersion: 2
+guid: cce9af31f4586f1458d34c9482082e61
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: BlueBird_0
+    21300002: BlueBird_1
+    21300004: BlueBird_2
+    21300006: BlueBird_3
+    21300008: BlueBird_4
+    21300010: BlueBird_5
+    21300012: BlueBird_6
+    21300014: BlueBird_7
+    21300016: BlueBird_8
+    21300018: BlueBird_9
+    21300020: BlueBird_10
+    21300022: BlueBird_11
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: BlueBird_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 313
+        width: 77
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BlueBird_1
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 322
+        width: 93
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BlueBird_2
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 320
+        width: 82
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BlueBird_3
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 200
+        width: 75
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BlueBird_4
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 215
+        width: 70
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BlueBird_5
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 211
+        width: 70
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BlueBird_6
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 104
+        width: 75
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BlueBird_7
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 119
+        width: 70
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BlueBird_8
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 115
+        width: 70
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BlueBird_9
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 12
+        width: 91
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BlueBird_10
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 16
+        width: 95
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BlueBird_11
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 13
+        width: 79
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
